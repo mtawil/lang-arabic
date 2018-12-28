@@ -5,7 +5,7 @@
   "keywords": ["locale", "Arabic", "Language"],
   "license": "MIT",
   "require": {
-      "flarum/core": "^0.1.0-beta.8.2"
+      "flarum/core": "^0.1.0-beta.8"
   },
   "autoload": {
     "psr-4": {
@@ -14,7 +14,7 @@
   },
   "extra": {
       "flarum-extension": {
-          "title": "اللغة العربية",
+          "title": "Arabic Language",
           "icon": {
               "image": "icon.svg",
               "backgroundColor": "#00247d",
@@ -24,7 +24,7 @@
       },
       "flarum-locale": {
           "code": "ar",
-          "title": "العربية"
+          "title": "Arabic"
       }
   }
 }
