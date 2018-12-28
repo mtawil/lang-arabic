@@ -1,8 +1,13 @@
+@import "../less/fonts.less";
 @import "../less/common/common";
 @import "../less/admin.less";
 @import "../less/forum.less";
 
+
 .forum {
+  font-family: 'GE_SS';
+  font-weight: 200;
+
 	@media @desktop, @desktop-hd {
 		.App-content .sideNavOffset {
 			margin-right: 0px;
@@ -35,11 +40,12 @@
 		  @media @phone {
 		    padding-top: @header-height-phone;
 		  }
-		}		
+		}
 	}
 }
 
 .admin {
+  font-family: 'GE_SS';
 	@media @desktop, @desktop-hd {
 	  .App-nav {
 	    /*position: absolute;*/

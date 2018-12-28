@@ -6,7 +6,6 @@ use Ziymed\LangArabic\Util\Str;
 use Ziymed\LangArabic\Listener;
 use Flarum\Discussion\Event\Saving;
 use Flarum\Foundation\Event\Validating;
-use Flarum\Frontend\Document;
 
 return [
 	new Extend\LanguagePack,
@@ -18,7 +17,7 @@ return [
 		->content(Listener\ChangeDirection::class),
 
 	function (Dispatcher $events) {
-		
+
 		// save the discussion slug in arabic
 		$events->listen(Saving::class, function(Saving $event){
 			$event->discussion->slug = Str::slug($event->discussion->title);
@@ -38,6 +37,7 @@ return [
 		});
 	},
 ];
+
 
 
 

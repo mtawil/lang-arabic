@@ -17,13 +17,13 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "أُعجب {username} بمشاركتك"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "|{username} أعحبته هذه المشاركة|{username} أعجبتهما هذه المشاركة|{username} أعجبتهم هذه المشاركة|"  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
       like_link: إعجاب
-      liked_by_self_text: "| {users} أعجبتني هذه المشاركة.,| {users} أعجبتنا هذه المشاركة. |,{users} أعجبتنا هذه المشاركة. |"  # Can be pluralized to agree with the number of users!
-      liked_by_text: "|{users} أعجبته هذه المشاركة.,|{users} أعجبتهما هذه المشاركة.|,{users} أعجبتهم (أعجبتهنَّ) هذه المشاركة.|"
+      liked_by_self_text: "|{users} أعجبتني هذه المشاركة| {users} أعجبتنا هذه المشاركة|{users} أعجبتنا هذه المشاركة|"  # Can be pluralized to agree with the number of users!
+      liked_by_text: "|{users} أعجبته هذه المشاركة|{users} أعجبتهما هذه المشاركة|{users} أعجبتهم (أعجبتهنَّ) هذه المشاركة|"
       others_link: => core.ref.some_others
       unlike_link: إلغاء الإعجاب
       you_text: => core.ref.you

@@ -25,6 +25,8 @@ flarum-subscriptions:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       new_post_text: "نشر {username}"
+      made_new_post: "made a post in a discussion you're following"
+      receive_notifications: "You won't receive any more notifications about this discussion until you're up-to-date."
 
     # These translations are used in the Settings page.
     settings:

@@ -226,7 +226,7 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: لا يسمح بالمشاركة
+      cannot_reply_button: النقاش مغلق
       cannot_reply_text: لا تملك الصلاحيات اللازمة لنشر المشاركة ضمن هذا النقاش
       delete_button: => core.ref.delete
       delete_confirmation: "هل أنت متأكد من حذف هذا النقاش؟"
