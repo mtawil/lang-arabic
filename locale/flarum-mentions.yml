@@ -15,7 +15,7 @@ flarum-mentions:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "قام {username} بالتعليق على مشاركتك"  # Can be pluralized to agree with the number of users!
+      post_mentioned_text: "قام {username} بالرد على مشاركتك"  # Can be pluralized to agree with the number of users!
       user_mentioned_text: "أشار {username} إلى اسمك في أحد مشاركاته"
 
     # These translations are displayed beneath individual posts.
@@ -29,7 +29,7 @@ flarum-mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: أحدهم قام بالتعليق على إحدى مشاركاتك
+      notify_post_mentioned_label: أحدهم قام بالرد على إحدى مشاركاتك
       notify_user_mentioned_label: أحدهم قام بذكر اسمك في إحدى المشاركات
 
     # These translations are used in the user profile page and profile popup.

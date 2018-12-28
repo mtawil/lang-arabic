@@ -148,7 +148,7 @@ core:
       participate_heading: المشاركون
       read_heading: قراءة
       rename_discussions_label: إعادة تسمية النقاش
-      reply_to_discussions_label: التعليق على النقاش
+      reply_to_discussions_label: المشاركة في النقاش
       sign_up_label: التسجيل
       start_discussions_label: بدأ النقاش
       view_discussions_label: مشاهدة النقاش
@@ -161,7 +161,7 @@ core:
       allow_indefinitely_button: دون تحديد
       allow_some_minutes_button: "لمدة {count} دقيقة|لمدة {count} دقائق"
       allow_ten_minutes_button: لمدة 10 دقائق
-      allow_until_reply_button: إلى حين إضافة تعليق جديد
+      allow_until_reply_button: إلى حين إضافة مشاركة جديدة
       everyone_button: للجميع
       members_button: => core.group.members
       signup_closed_button: مغلق
@@ -204,7 +204,7 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: كتابة مشاركة
+      body_placeholder: أكتب مشاركتك هنا
       discard_confirmation: "لم تقم بعد بنشر نقاشك، فهل تود حذفه؟"
       submit_button: نشر النقاش
       title: => core.ref.start_a_discussion
@@ -219,19 +219,19 @@ core:
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "لم تقم بنشر تعليقك بعد، فهل تود حذفه؟"
-      posted_message: تعليقك تم نشره
-      submit_button: كتابة تعليق
+      discard_confirmation: "لم تقم بنشر مشاركتك بعد، فهل تود حذفها؟"
+      posted_message: مشاركتك تم نشره
+      submit_button: نشر المشاركة
       view_button: معاينة
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: لا يسمح بالتعليق
-      cannot_reply_text: لا تملك الصلاحيات بنشر التعليق ضمن هذا النقاش
+      cannot_reply_button: لا يسمح بالمشاركة
+      cannot_reply_text: لا تملك الصلاحيات اللازمة لنشر المشاركة ضمن هذا النقاش
       delete_button: => core.ref.delete
       delete_confirmation: "هل أنت متأكد من حذف هذا النقاش؟"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: قم بالدخول لتنشر التعليق
+      log_in_to_reply_button: ولوج
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
@@ -241,7 +241,7 @@ core:
       empty_text: لا توجد نقاشات هنا، قم بالعودة مرة أخرى في وقت لاحق.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: عيِّنها على أنها مقروءة
-      replied_text: "قام {username} بالتعليق منذ {ago}"
+      replied_text: "قام {username} بالمشاركة منذ {ago}"
       started_text: "نشر {username} منذ {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
@@ -549,7 +549,7 @@ core:
     password: كلمة المرور
     posts: المشاركات                                 # Referenced by flarum-statistics.yml
     previous_page: السابق
-    remove: حذف النقاش
+    remove: حذف
     rename: تسمية النقاش
     reply: تعليق                                 # Referenced by flarum-mentions.yml
     reset_your_password: تعيين كلمة مرور جديدة
@@ -561,7 +561,7 @@ core:
     start_a_discussion: بدء نقاش
     username: إسم العضو
     users: الأعضاء                                 # Referenced by flarum-statistics.yml
-    write_a_reply: كتابة تعليق
+    write_a_reply: أكتب تعليقك هنا ...
     you: أنا                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##

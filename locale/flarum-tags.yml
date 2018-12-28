@@ -14,8 +14,8 @@ flarum-tags:
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: => core.ref.color
-      delete_tag_button: حذف الكلمة الدلالية
-      delete_tag_confirmation: "هل أنت متأكد لِحذفك هذه الكلمة الدلالية؟ النقاشات ضمن هذه الكلمة الدلالية لن تحذف."
+      delete_tag_button: حذف الكلمة المفتاحية
+      delete_tag_confirmation: "هل أنت متأكد لِحذفك هذه الكلمة المفتاحية؟ النقاشات ضمن هذه الكلمة المفتاحية لن تحذف."
       description_label: وصف
       hide_label: إخفاء في جميع النقاشات
       name_label: => flarum-tags.ref.name
@@ -27,71 +27,71 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: إدارة قائمة الكلمات الدلالية المتوفرة وتنظيم النقاشات ضمنها
+      tags_text: إدارة قائمة الكلمات المفتاحية المتوفرة وتنظيم النقاشات ضمنها
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: السماح بتعديل الكلمات الدلالية
-      restrict_by_tag_heading: المنع حسب الكلمات الدلالية
-      tag_discussions_label: نظم النقاشات حسب الكلمات الدلالية
+      allow_edit_tags_label: السماح بتعديل الكلمات المفتاحية
+      restrict_by_tag_heading: المنع حسب الكلمات المفتاحية
+      tag_discussions_label: نظم النقاشات حسب الكلمات المفتاحية
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
       range_separator_text: إلى
-      required_primary_heading: العدد المطلوب من الكلمات الدلالية الأساسية
-      required_primary_text: أدخل الحد الأدنى والحد الأقصى لعدد الكلمات الدلالية الأساسية التي يمكن تطبيقها على النقاش.
-      required_secondary_heading: العدد المطلوب من الكلمات الدلالية الثانوية
-      required_secondary_text: أدخل الحد الأدنى والحد الأقصى لعدد الكلمات الدلالية الثانوية التي يمكن تطبيقها على النقاش.
-      title: إعدادات الكلمات الدلالية
+      required_primary_heading: العدد المطلوب من الكلمات المفتاحية الأساسية
+      required_primary_text: أدخل الحد الأدنى والحد الأقصى لعدد الكلمات المفتاحية الأساسية التي يمكن تطبيقها على النقاش.
+      required_secondary_heading: العدد المطلوب من الكلمات المفتاحية الثانوية
+      required_secondary_text: أدخل الحد الأدنى والحد الأقصى لعدد الكلمات المفتاحية الثانوية التي يمكن تطبيقها على النقاش.
+      title: إعدادات الكلمات المفتاحية
 
     # These translations are used in the Tags page.
     tags:
       about_tags_text: "تستخدم العلامات لتصنيف النقاشات. تشبه العلامات الأساسية فئات المنتديات التقليدية: يمكن ترتيبها في تسلسل هرمي من مستويين. لا تحتوي العلامات الثانوية على تسلسل هرمي أو ترتيب ، وهي مفيدة للتصنيف المصغر."
       create_tag_button: => flarum-tags.ref.create_tag
-      primary_heading: الكلمات الدلالية الأساسية
-      secondary_heading: الكلمات الدلالية الثانوية
-      settings_button: إعدادات الكلمات الدلالية
+      primary_heading: الكلمات المفتاحية الأساسية
+      secondary_heading: الكلمات المفتاحية الثانوية
+      settings_button: إعدادات الكلمات المفتاحية
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: " اختر الكلمات الدلالية الأساسية|اختر {count} كلمة دلالية أساسية."
-      choose_secondary_placeholder: " اختر كلمة دلالية أخرى|اختر {count}"
-      edit_title: " تعديل الكلمات الدلالية الخاص بـ {title}"
+      choose_primary_placeholder: " اختر الكلمات المفتاحية الأساسية|اختر {count} كلمة مفتاحية أساسية."
+      choose_secondary_placeholder: " اختر كلمة مفتاحية أخرى|اختر {count}"
+      edit_title: " تعديل الكلمات المفتاحية الخاص بـ {title}"
       submit_button: => core.ref.okay
-      title: إختر كلمة دلالية لهذا النقاش
+      title: إختر كلمة مفتاحية لهذا النقاش
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: إختيار الكلمات الدلالية
+      choose_tags_link: إختيار الكلمات المفتاحية
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: تعديل الكلمات الدلالية
+      edit_tags_button: تعديل الكلمات المفتاحية
 
     header:
-      back_to_tags_tooltip: العودة إلى قائمة الكلمات الدلالية
+      back_to_tags_tooltip: العودة إلى قائمة الكلمات المفتاحية
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: عرض المزيد
       tags_link: => flarum-tags.ref.tags
-      untagged_link: بلا كلمة دلالية
+      untagged_link: بلا كلمة مفتاحية
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_and_removed_tags_text: " أضاف {username} هذه الكلمات الدلالية : {tagsAdded} وحذف هذه : {tagsRemoved}."
-      added_tags_text: "أضاف {username} هذه الكلمات الدلالية  {tagsAdded}"
-      removed_tags_text: "حذف {username} هذه الكلمات الدلالية  {tagsRemoved}"
+      added_and_removed_tags_text: " أضاف {username} هذه الكلمات المفتاحية : {tagsAdded} وحذف هذه : {tagsRemoved}."
+      added_tags_text: "أضاف {username} هذه الكلمات المفتاحية  {tagsAdded}"
+      removed_tags_text: "حذف {username} هذه الكلمات المفتاحية  {tagsRemoved}"
       tags_text: "{tags}|{tags}"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: هذه الكلمة الدلالية تم حذفها
+    deleted_tag_text: هذه الكلمة المفتاحية تم حذفها
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -99,6 +99,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: إنشاء كلمة دلالية جديدة
-    name: عنوان الكلمة الدلالية
-    tags: الكلمات الدلالية
+    create_tag: إنشاء كلمة مفتاحية جديدة
+    name: عنوان الكلمة المفتاحية
+    tags: الكلمات المفتاحية

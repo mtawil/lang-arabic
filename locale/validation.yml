@@ -1,5 +1,5 @@
 validation:
-  accepted: "The :attribute must be accepted."
+  accepted: ":attribute يجب أن يتم قبولها"
   active_url: ":attribute ليس بصيغة رابط صحيحة."
   after: ":attribute يجب أن يكون تاريخا قبل :date."
   after_or_equal: "The :attribute must be a date after or equal to :date."

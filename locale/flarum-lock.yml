@@ -9,7 +9,7 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: غلق باب المشاركة
+      lock_discussions_label: غلق باب التعليق
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -20,8 +20,8 @@ flarum-lock:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      lock_button: غلق باب المشاركة
-      unlock_button: فتح باب المشاركة
+      lock_button: إلغاء التعليق
+      unlock_button: السماح بالتعليق
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -29,9 +29,9 @@ flarum-lock:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} أغلق باب المشاركة"
-      discussion_unlocked_text: "{username} فتح باب المشاركة"
+      discussion_locked_text: "{username}  ألغى التعليقات"
+      discussion_unlocked_text: "{username}  سمح بالتعليقات"
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: أحدهم أغلق باب المشاركة في إحدى نقاشاتي
+      notify_discussion_locked_label: أحدهم ألغى التعليقات في إحدى نقاشاتي
