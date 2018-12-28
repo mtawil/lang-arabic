@@ -1,11 +1,11 @@
 {
   "name": "ziymed/lang-arabic",
   "type": "flarum-extension",
-  "description": "الترجمة  الأساسية للفلاورم باللغة العربية",
+  "description": "Arabic Language Pack.",
   "keywords": ["locale", "Arabic", "Language"],
   "license": "MIT",
   "require": {
-      "flarum/core": "^0.1.0-beta.8.1"
+      "flarum/core": "^0.1.0-beta.8.2"
   },
   "autoload": {
     "psr-4": {
