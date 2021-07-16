@@ -5,8 +5,9 @@
   "keywords": ["locale", "Arabic", "Language"],
   "license": "MIT",
   "require": {
-      "flarum/core": "^0.1.0-beta.8"
+      "flarum/core": "^1.0"
   },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "Ziymed\\LangArabic\\": "src/"
